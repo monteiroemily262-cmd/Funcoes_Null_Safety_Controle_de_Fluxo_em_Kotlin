@@ -1,3 +1,7 @@
 val calcularGorjeta: (Double?) -> Double = { 
     if (it == null || it < 0.0) 0.0 else it 
 }
+fun main() {
+    println(calcularGorjeta(15.5))  
+    println(calcularGorjeta(null))  
+}
